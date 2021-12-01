@@ -26,10 +26,3 @@ workflows:
       - say-hello
       
       
-jobs:
-  build:
-    steps:
-      # ... steps for building/testing app ...
-
-      - setup_remote_docker:
-          version: 19.03.13
